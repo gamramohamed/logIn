@@ -6,3 +6,9 @@ inp1.onkeyup=()=>{
 if (localStorage.length>0) {
   inp1.value=localStorage.user
 }
+inp2.onkeyup = () => {
+  localStorage.user = inp2.value;
+};
+if (localStorage.length > 0) {
+  inp2.value = localStorage.user;
+}
